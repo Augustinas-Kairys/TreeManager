@@ -1,0 +1,21 @@
+# Tree Manager Plugin Messages
+# You can use PlaceholderAPI placeholders in messages
+# Colors: use & for color codes (e.g., &c for red, &a for green)
+
+# Permission denial messages
+no-permission-basic: "&c❌ Access Denied! &7You need &eC1 - Block &7rank to use this farm. Your current rank: &a%luckperms_primary_group_name%"
+no-permission-premium: "&c🔒 Premium Farm Locked! &7You need &6C2 - Block &7rank. Your current rank: &a%luckperms_primary_group_name%"
+no-permission-vip: "&c⭐ VIP Farm Restricted! &7You need &dC3 - Block &7rank. Your current rank: &a%luckperms_primary_group_name%"
+public-area: "&a🌳 Public Garden &7- Everyone can use this area!"
+
+# Action restriction messages
+break-not-allowed: "&cYou can only break trees and leaves in this area!"
+place-not-allowed: "&cYou can only place saplings in this area!"
+bonemeal-not-allowed: "&cYou can only use bone meal on saplings in this area!"
+
+# General messages
+no-permission: "&cYou don't have permission to use this farm!"
+not-in-zone: "&cThis action is only allowed in tree farm zones!"
+
+# UI messages
+zone-info: "&6🌳 Tree Farm Info &7| &fRequired Rank: &e{required_rank} &7| &fYour Rank: &a%luckperms_primary_group_name%"

@@ -1,0 +1,22 @@
+# Tree Manager Plugin Configuration
+# Define zones and their required permissions
+zones:
+  YOUR_ZONE_NAME_HERE: #This has to be a WorldGuard region name
+    permission: "treefarm.basic" #Permission node required to access this zone
+    required-rank: "C1 - Block" #Custom rank name for display in messages (e.g., "C1 - Block")
+    no-permission-message: "no-permission-basic" #Key from messages.yml to display when a player without permission tries to access this zone
+  
+  forest_area:
+    permission: "treefarm.premium"
+    required-rank: "C2 - Block"
+    no-permission-message: "no-permission-premium"
+  
+  park_trees:
+    permission: "treefarm.vip"
+    required-rank: "C3 - Block"
+    no-permission-message: "no-permission-vip"
+  
+  public_garden:
+    permission: ""
+    required-rank: ""
+    no-permission-message: "public-area"

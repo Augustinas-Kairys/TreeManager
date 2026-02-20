@@ -1,0 +1,29 @@
+# TreeManagerPlugin
+
+A Bukkit/Spigot plugin for managing zone-based tree farms with permission levels and customizable messages.
+
+## Features
+
+- **Zone-based Permissions**: Define different permission levels for tree farming areas using WorldGuard regions
+- **Block Restrictions**: Control what blocks players can break and place within farm zones
+- **PlaceholderAPI Integration**: Support for dynamic placeholders in messages
+- **Customizable Messages**: Configure messages for different permission scenarios
+- **Easy Management**: Reload configuration without restarting the server
+
+## Dependencies
+
+- **Required**: [WorldGuard](https://dev.bukkit.org/projects/worldguard)
+- **Optional**: [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
+
+## Installation
+
+1. Download the plugin JAR file
+2. Place it in your server's `plugins` folder
+3. Restart your server or use a plugin manager to load it
+4. Configure `config.yml` and `messages.yml` in the `plugins/TreeManagerPlugin` folder
+5. Use `/treemanager reload` to apply changes
+
+## Configuration
+
+### config.yml
+Define your tree farm zones:
