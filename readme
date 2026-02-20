@@ -1,6 +1,7 @@
 # TreeManagerPlugin
 
-A Bukkit/Spigot plugin for managing zone-based tree farms with permission levels and customizable messages.
+TreeManagerPlugin – A lightweight Bukkit/Spigot plugin for WorldGuard regions that restricts tree farming per zone. Fixes WorldGuard limitations: allows players to regrow trees with bonemeal even when default flags prevent it. Supports PlaceholderAPI for custom messages.
+
 
 ## Features
 
@@ -27,3 +28,5 @@ A Bukkit/Spigot plugin for managing zone-based tree farms with permission levels
 
 ### config.yml
 Define your tree farm zones:
+
+
